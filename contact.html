@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us - Hayat</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="main-header">
+      <div class="container">
+        <!-- Logo (image or text) -->
+        <div class="logo">
+          <!--  Image logo -->
+          <img src="assets/logo.png" alt="Hayat Logo" />
+
+          <!--  Text logo -->
+          Hayat Foundation
+        </div>
+
+        <!-- Hamburger icon -->
+        <div class="menu-toggle" id="menu-toggle">&#9776;</div>
+
+        <!-- Navigation Links -->
+        <nav class="nav-links" id="nav-links">
+          <a href="index.html">Home</a>
+          <a href="about.html">About Us</a>
+          <a href="projects.html">Our Projects</a>
+          <a href="gallery.html">Gallery</a>
+          <a href="contact.html" class="active">Contact Us</a>
+        </nav>
+        <!-- Call-to-action button -->
+        <a href="donate.html" class="nav-button">Donate</a>
+      </div>
+    </header>
+
+    <section class="hero-banner">
+      <div class="header-text">Contact Us</div>
+    </section>
+
+    <section class="contact-card">
+      <div class="card">
+        <div class="card-content">
+          <div class="contact-form">
+            <img
+              src="assets/send-message.png"
+              alt="Contact Icon"
+              class="corner-image"
+            />
+            <h3>Send Us a Message</h3>
+            <p>
+              You have a question, you want to donate or you have an inquiry
+              feel free to reach out to us by filling the form below.
+            </p>
+            <form action="forms/contact.php" method="POST">
+              <input type="text" name="name" placeholder="Full Name" required />
+              <input
+                type="email"
+                name="email"
+                placeholder="Email Address"
+                required
+              />
+              <input
+                type="text"
+                name="subject"
+                placeholder="Subject"
+                required
+              />
+              <textarea
+                name="message"
+                rows="6"
+                placeholder="Your Message"
+                required
+              ></textarea>
+              <button type="submit">Send Message</button>
+            </form>
+          </div>
+
+          <!-- Divider -->
+          <div class="divider"></div>
+
+          <!-- Right side: Contact Info -->
+          <div class="contact-info">
+            <h4>Chat with Us</h4>
+            <p>
+              <span class="icon">📞</span> <strong>Call:</strong> +256 782 279
+              555
+            </p>
+            <p>
+              <span class="icon">📧</span> <strong>Email:</strong>
+              <a href="mailto:info@hayatfoundation.org"
+                >info@hayatfoundation.org</a
+              >
+            </p>
+            <p>
+              <span class="icon">🌐</span> <strong>Website:</strong>
+              <a href="https://www.hayatfoundation.org">hayatfoundation.org</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="call-to-action">
+      <div class="cta-image">
+        <img
+          src="assets/95bed92257956cebfd1219d640b4a9540f54c04d.jpg"
+          alt="Happy Kids"
+        />
+      </div>
+      <div class="cta-text">
+        <h2>Ready to Make a Difference?</h2>
+        <p>
+          Join us in transforming lives and communities. Your support matters.
+        </p>
+        <a href="#" class="cta-button">Donate Now</a>
+      </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="footer-container">
+        <div class="footer-left">
+          <div class="footer-logo">
+            <img src="assets/logo.png" alt="Hayat Aid Organization Logo" />
+          </div>
+          <div class="footer-contact">
+            <div class="footer-contact">
+              <div class="contact-item">
+                <strong>Have a question?</strong><br />
+                📞 +256 788 277 555
+              </div>
+
+              <div class="contact-item">
+                <strong>Contact us at</strong><br />
+
+                <a href="mailto:info@hayataidorganization.org"
+                  >📧info@hayataidorganization.org</a
+                >
+              </div>
+            </div>
+          </div>
+
+          <div class="footer-nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="projects.html">Our Projects</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="contact.html">Contact Us</a>
+          </div>
+        </div>
+
+        <div class="footer-right">
+          <h4>Newsletter</h4>
+          <p>
+            Be the first one to know about discounts, offers and events.<br />Unsubscribe
+            whenever you like.
+          </p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Enter your email" required />
+            <button type="submit">Submit</button>
+          </form>
+          <div class="footer-social">
+            <a href="#"><img src="assets/facebook.png" alt="Facebook" /></a>
+            <a href="#"><img src="assets/twitter.png" alt="Twitter" /></a>
+            <a href="#"><img src="assets/whatsapp.png" alt="WhatsApp" /></a>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Hayat Foundation, All Rights Reserved</p>
+      </div>
+    </footer>
+  </body>
+</html>
